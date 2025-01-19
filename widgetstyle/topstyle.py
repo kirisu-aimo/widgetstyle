@@ -1,5 +1,5 @@
-from basiccolor import BasicColor
-from basicpad import BasicPad
+from widgetstyle.basiccolor import BasicColor
+from widgetstyle.basicpad import BasicPad
 from widgetstyle.basestyle import BaseStyle
 
 class TopStyle(BaseStyle):
