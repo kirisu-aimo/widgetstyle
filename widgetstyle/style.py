@@ -1,4 +1,4 @@
-from basestyle import BaseStyle
+from widgetstyle.basestyle import BaseStyle
 
 class Style(BaseStyle):
     def __init__(self, master: BaseStyle):

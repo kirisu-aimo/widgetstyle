@@ -1,6 +1,6 @@
 from basiccolor import BasicColor
 from basicpad import BasicPad
-from basestyle import BaseStyle
+from widgetstyle.basestyle import BaseStyle
 
 class TopStyle(BaseStyle):
     def __init__(self):
