@@ -1,7 +1,7 @@
 from optcolor import Color
 
 
-class WidgetStyle():
+class BaseStyle():
     def __init__(self):
         """widget style attribute for tkinter"""
         # mode

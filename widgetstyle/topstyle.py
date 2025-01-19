@@ -1,8 +1,8 @@
 from basiccolor import BasicColor
 from basicpad import BasicPad
-from basestyle import WidgetStyle
+from basestyle import BaseStyle
 
-class TopStyle(WidgetStyle):
+class TopStyle(BaseStyle):
     def __init__(self):
         """top window style attribute for tkinter"""
         super().__init__()

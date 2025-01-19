@@ -1,7 +1,7 @@
-from basestyle import WidgetStyle
+from basestyle import BaseStyle
 
-class Style(WidgetStyle):
-    def __init__(self, master: WidgetStyle):
+class Style(BaseStyle):
+    def __init__(self, master: BaseStyle):
         super().__init__()
         self.master = master
 
